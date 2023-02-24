@@ -11,7 +11,7 @@ const {tasks} = useContext(TaskContext)
   
 
   return (
-    <div className="my-1 py-1 mr-1 ">
+    <div className="my-1 py-2 mr-2 ">
       {tasks.map((task) => (
         <div key={task.id}>
           <TaskCard key={task.id} task={task}/>
